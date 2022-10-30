@@ -1,19 +1,23 @@
-import LinkButton from "./components/LinkButton";
 import ProfilePic from "./components/ProfilePic";
+import TextBox from "./components/TextBox";
+import LinkButton from "./components/LinkButton";
 
 function App() {
   return (
     <div className="App w-screen h-screen bg-[#f4f5f7]">
       <main className="w-[1440px] bg-white h-full border p-10 mx-auto">
         <div className="flex justify-center mb-10">
-          <ProfilePic />
+          <div className="flex justify-center flex-col items-center">
+            <ProfilePic />
+            <TextBox
+              twitterUserName="successIbekwe1"
+              slackUserName="SuccyCode"
+            />
+          </div>
         </div>
         <section className="">
           <div className="w-[80%] mx-auto">
-            <LinkButton
-              name="Zuri Training"
-              link="https://training.zuri.team/"
-            />
+            <LinkButton />
           </div>
         </section>
       </main>
