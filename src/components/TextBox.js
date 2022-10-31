@@ -8,7 +8,9 @@ const TextBox = (props) => {
       <h1 className="text-xl font-semibold text-gray-900" id="twitter">
         {twitterUserName}
       </h1>
-      <p id="slack">{slackUserName}</p>
+      <p id="slack" className="hidden">
+        {slackUserName}
+      </p>
     </div>
   );
 };

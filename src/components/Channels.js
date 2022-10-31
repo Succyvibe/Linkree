@@ -9,9 +9,13 @@ const Channels = () => {
         <div>
           <img src={picture} alt="slack" />
         </div>
-        <div>
+        <a
+          href="https://github.com/Succyvibe/Linkree"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={github} alt="github logo" />
-        </div>
+        </a>
       </div>
     </div>
   );
