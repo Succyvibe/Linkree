@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App  bg-white]">
-      <div className="w-[1440px]  py-5 px-10 mx-auto h-full">
+      <div className="container  py-5 px-10 mx-auto h-full">
         <main className=" ">
           <div className="flex justify-end">
             <Button />
@@ -23,15 +23,14 @@ function App() {
             </div>
           </div>
           <section className="mb-10">
-            <div className="w-[80%] mx-auto">
+            <div className="md:w-[80%] mx-auto">
               <LinkButton />
             </div>
             <Channels />
           </section>
         </main>
-
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
