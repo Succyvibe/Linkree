@@ -40,7 +40,7 @@ const LinkButton = (props) => {
           className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
-          ref_id="Success Ibekwe"
+          ref_id="SuccyCode"
           href={"https://books.zuri.team/"}
           title="Best place to get the python books to start your  tech career"
         >
