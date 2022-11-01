@@ -7,7 +7,7 @@ const LinkButton = (props) => {
     <div>
       <div className="flex flex-col gap-[8px]">
         <a
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 md:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           href={"https://twitter.com/successibekwe1/"}
@@ -17,7 +17,7 @@ const LinkButton = (props) => {
 
         <a
           id="btn__zuri"
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 lg:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           href={"https://training.zuri.team/"}
@@ -26,7 +26,7 @@ const LinkButton = (props) => {
         </a>
         <a
           id="books"
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 md:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           href={"https://books.zuri.team/"}
@@ -37,7 +37,7 @@ const LinkButton = (props) => {
 
         <a
           id="book__python"
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 md:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           ref_id="SuccyCode"
@@ -48,7 +48,7 @@ const LinkButton = (props) => {
         </a>
         <a
           id="pitch"
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 md:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           href={"https://background.zuri.team"}
@@ -59,7 +59,7 @@ const LinkButton = (props) => {
 
         <a
           id="book__design"
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 md:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
           target="_blank"
           rel="noreferrer"
           href={"https://books.zuri.team/design-rules"}
