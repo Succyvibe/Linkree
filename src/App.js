@@ -1,9 +1,12 @@
+import { Routes, Route } from "react-router-dom";
 import ProfilePic from "./components/ProfilePic";
 import TextBox from "./components/TextBox";
+import Main from "./components/Main.js"
 import LinkButton from "./components/LinkButton";
 import Button from "./components/Button";
 import Channels from "./components/Channels";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -30,6 +33,11 @@ function App() {
           </section>
         </main>
       </div>
+
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );

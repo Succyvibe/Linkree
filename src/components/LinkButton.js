@@ -7,7 +7,7 @@ const LinkButton = (props) => {
     <div>
       <div className="flex flex-col gap-[8px]">
         <a
-          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 lg:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center font-semibold"
+          className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 lg:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center"
           target="_blank"
           rel="noreferrer"
           href={"https://twitter.com/successibekwe1/"}
@@ -70,9 +70,9 @@ const LinkButton = (props) => {
         <a
           id="contact"
           className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 lg:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center"
-          target="_blank"
+          target=""
           rel="noreferrer"
-          href={"https://books.zuri.team/design-rules"}
+          href="/contact"
           title="Best place to get amazingly free designs rules for your designs"
         >
           Contact Me
