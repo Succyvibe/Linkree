@@ -4,8 +4,8 @@ import I4G from "../../src/img/I4G.png";
 
 const Footer = () => {
   return (
-    <div className="border-t-2">
-      <div className=" container mx-auto md:flex justify-between mt-5  px-10 md:my-10 space-y-2 md:space-y-0  ">
+    <div className="px-4">
+      <div className=" container mx-auto md:flex justify-between my-5 py-4 px-10 md:my-10 space-y-2 md:space-y-0 border-t-2 ">
         <div>
           <img src={ZuriImg} alt="slack" />
         </div>

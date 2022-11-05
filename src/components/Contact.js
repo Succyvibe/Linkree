@@ -1,12 +1,12 @@
 const Contact = () => {
   return (
-    <div className="lg:w-[1440px] lg:h-[960px] flex flex-col justify-center mx-auto items-center pt-[64px] pb-[96px] gap-[64px]">
-      <div className="container w-[1280px] h-[800px] flex flex-row justify-center items-center px-[32px] gap-[64px]">
+    <div className="lg:w-[1440px] lg:h-[960px] flex flex-col justify-center mx-auto items-center pt-[20px] lg:pt-[64px] pb-[96px] gap-[64px]">
+      <div className="container md:w-[1280px] h-[800px] flex flex-row justify-center items-center px-[32px] gap-[64px]">
         {/* content wrapper */}
-        <div className="h-full w-[1216px]  flex flex-col justify-center items-center">
+        <div className="h-full md:w-[1216px]  flex flex-col justify-center items-center">
           {/* Form Content */}
 
-          <div className="w-[720px] h-[616px] min-h-[616px] flex flex-col items-center gap-[48px]">
+          <div className="w-[343px] md:w-[720px] h-[616px] min-h-[616px] flex flex-col items-center gap-[48px]">
             {/* Heading */}
             <div className="w-full h-[94px] flex flex-col items-start gap-5">
               <h1 className="text-[36px] font-[600] leading-10 text-[#101828]">
@@ -16,11 +16,11 @@ const Contact = () => {
                 Hi there, contact me to ask me about anything you have in mind.
               </p>
               {/* ======================Form==================== */}
-              <form className="w-[720px] flex flex-col items-start gap-8">
+              <form className="w-[343px] md:w-[720px] flex flex-col items-start gap-8">
                 {/* ============Name Box============ */}
 
-                <div className="w-[720px] flex gap-4">
-                  <div className="w-[50%] flex flex-col items-start gap-[6px] ">
+                <div className="w-[343px] md:w-[720px] md:flex gap-8">
+                  <div className="md:w-[50%] flex flex-col items-start gap-[6px]">
                     <label className="text-gray-700 text-[14px] font-[500]">
                       First Name
                     </label>
@@ -30,9 +30,9 @@ const Contact = () => {
                       className="flex flex-row items-center py-[10px]  px-[14px] gap-2 bg-white border border-[#D0D5DD] shadow-[0px 1px 2px rgba(16, 24, 40, 0.05)] rounded-[8px] w-full"
                     />
                   </div>
-                  <div className="w-[50%] flex flex-col items-start gap-[6px] ">
+                  <div className="md:w-[50%] flex flex-col items-start gap-[6px] mt-6 md:mt-0 ">
                     <label className="text-gray-700 text-[14px] font-[500]">
-                      First Name
+                      Last Name
                     </label>
                     <input
                       type="text"
