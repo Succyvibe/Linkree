@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LinkButton = (props) => {
   //   const { name, title, link } = props;
@@ -67,16 +68,14 @@ const LinkButton = (props) => {
         >
           Design Books
         </a>
-        <a
+
+        <Link
           id="contact"
           className="bg-[#f4f5f7] hover:bg-gray-400 transition duration-300 lg:w-[1152px] h-[76px] py-[24px] px-[32px] rounded-[8px] border border-[#EAECF0] text-gray-900 font-[600] text-center"
-          target=""
-          rel="noreferrer"
-          href="/contact"
-          title="Best place to get amazingly free designs rules for your designs"
+          to="/Contact"
         >
           Contact Me
-        </a>
+        </Link>
       </div>
     </div>
   );
